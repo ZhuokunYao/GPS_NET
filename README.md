@@ -40,6 +40,8 @@ To test under other numbers of input images, you can simply modify the parameter
 to generate your own test dataset. Then you should run 'python main.py' with '--N xxx'.
 - python main.py --N xxx
 
+where xxx is the number of inputs.
+
 ## Matters needing attention
 - The model in the checkpoint is finetuned, and its performance will be slightly better than the results in the paper. If you need to compare with the results in the paper, please use the data in the 'paper_result' directory. We provide raw (unvisualized) .mat data for your custom visualization.
 - Same as CNN-PS, the first 20 samples of bear in the DiLiGenT dataset are discarded during the testing.
